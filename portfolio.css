@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+    font-family:candal;
 }
 body{
     background-color: #e6e4e4;
@@ -14,22 +14,19 @@ body{
     margin:0 auto;
 }
 /* navigation style*/
-.header {
-    background: radial-gradient(#fff,#0d78c0)repeat scroll 0% 0%;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
-      
-}    
+
 .container {
-    max-width :1300px;
+    width:auto;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding:auto;
 }
 .navbar {
+    height:80px;
     display: flex;
     align-items: center;
     padding: 20px;
-    border: 1px solid #fff;
+    border:1px solid #fff;
+    border-radius: 30px;
     background: #fff;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
     
@@ -118,7 +115,7 @@ nav ul li{
       background-color: #FF523B;
         }
         .bttn{
-            background: #d1d1d1;
+            background: #817e7e;
             display: inline-block;
             color:#fff;
             border-radius: 30px;
@@ -159,27 +156,23 @@ nav ul li{
         background-color: #fff;
     }
     .title{
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 900;
-        font-family: cursive;
+        font-family:cursive;
         margin-top:10px ;
         color:#0d78c0;
-        background-color: #fff;
     }
 .content{
-    text-align: center;
-    padding: auto;
     margin-bottom:4em;
     margin-top:10px;
-    background-color: #fff;
     height:auto;
-    flex-wrap: wrap;
 }
 .content p {
-color:#555;
+color:rgb(112, 108, 108);
+font-size: 23px;
 margin-top: 30px;
-font-weight: 400;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 300;
+font-family:arial;
 }
 /*---------testimonial section---*/
 .testimonial{
@@ -195,6 +188,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     color: #0d78c0;
     text-align: center;
     margin-top: 0;
+    font-family: cursive;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -212,14 +206,13 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     color: #0d78c0;
 }
 .box p{
-    font-family: cursive;
+    font-family:arial;
     font-weight: 400;
 }
 .box .content{
 padding: 10px;
 display: flex;
 align-items: center;
-justify-content: space-between;
 }
 .box .info .name{
     font-size: 17px;
@@ -398,7 +391,7 @@ color: #0d78c0;
       
        }
        .titlee{
-    
+    font-family: cursive;
        margin-right: auto ;
             margin-left: auto;
             color:#0d78c0;
@@ -421,9 +414,9 @@ color: #0d78c0;
             transition: all 0.5s;
             color: #0d78c0;
             outline: none;
-            height: 125px;
-            width: 125px;
+        margin-top:10px;
           }
+
         .IMG:hover{
        cursor: pointer;
        background-color: #0d78c0;
@@ -460,13 +453,59 @@ margin-top: 10px;
 background-color: #fff;
    }
 /*----------foooter------*/
-#site-info {
-	width: 100%;
-	line-height: 5;
+.site-info {
+	width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 1;
+    flex-wrap:wrap;
 	text-align: center;
 	background: #000;
 	color: #fff;
 	left: 0;
     margin-top:50px;
 	bottom: 0;
+}
+ 
+.copy{
+position: relative;
+background-color: #000;
+padding-top: 20px;
+}
+.copyright{
+    text-align:center;
+    margin: auto;
+    color:#9b8f8f;
+}
+.sets{
+    padding:auto;
+    margin:auto;
+}
+   .lists{
+       margin:auto;
+       padding: auto;
+       text-align:center;
+       padding-bottom: 20px;
+   }
+   .imggg{
+       display: block;
+       margin-bottom: 10px;
+   }
+   .h22{
+       padding-bottom: 10px;
+       color:#0d78c0;
+       text-align: center;
+       font-size: 25px;
+   }
+   .pp{
+       text-align: center;
+       margin: auto;
+       padding: auto;
+       color: #acabab;
+   }
+.inline{
+    display:block;
+}
+.hr{
+    color:#4caf50
 }
